@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 namespace Simego.DataSync.Providers.Avangate
 {
-    [ProviderInfo(Name = "Avangate/2Checkout Datasource", Group ="Avangate", Description = "Avangate/2Checkout REST v4 Datasource", AnalyticsKey = AnalyticsKeyEnum.Avangate)]
+    [ProviderInfo(Name = "Avangate/2Checkout Datasource", Group ="Avangate", Description = "Avangate/2Checkout REST v4 Datasource")]
     public class AvangateDatasourceReader : DataReaderProviderBase, IDataSourceSetup
     {
         private HttpWebRequestHelper RequestHelper = new HttpWebRequestHelper();
